@@ -1,0 +1,15 @@
+public class main(String str,String permuation){
+    for(int i=0;i<str.length();i++){
+        char current=str.charAt(i);
+        //"abc choice kiya toh="ab" bnana h
+        String newStr=str.substring(0,1)+str.substring(i+1);
+        printperm(newstrpermutation+currcha);
+    }
+}
+
+   public static void main(String args[]) {
+    String str="abc";
+    printperm(str,"");
+   }
+   
+}

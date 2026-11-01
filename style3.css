@@ -1,0 +1,40 @@
+
+*{
+
+margin: 0px;
+padding: 0px;
+
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns:200px 1fr;
+    grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+    grid-template-rows: 80px 100px 90px;
+}
+.box{
+    border: solid black 2px;
+    
+}
+header{
+    grid-area: header;
+    background-color:gray;
+}
+aside{
+    grid-area: aside;
+    background-color: brown;
+
+}
+footer{
+    grid-area: footer;
+    background-color: blanchedalmond;
+}
+main{
+    grid-area: main;
+    background-color: brown(184,164,209);
+}
+
